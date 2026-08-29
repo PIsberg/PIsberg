@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="26" viewBox="0 0 1000 26" role="img" aria-label="">
+  <title>Section divider - scanner line</title>
+  <defs>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF6B1A" stop-opacity="0"/>
+      <stop offset="35%" stop-color="#FF6B1A" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#FFF5E6" stop-opacity="1"/>
+      <stop offset="65%" stop-color="#FF6B1A" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#FF6B1A" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="ticks" width="50" height="26" patternUnits="userSpaceOnUse">
+      <rect x="0" y="10" width="1" height="6" fill="#B7410E" opacity="0.4"/>
+    </pattern>
+  </defs>
+  <style>
+    @media (prefers-reduced-motion: reduce) { .rm { display: none; } }
+  </style>
+  <rect x="0" y="13" width="1000" height="1" fill="#3D2A18"/>
+  <rect x="0" y="0" width="1000" height="26" fill="url(#ticks)"/>
+  <rect x="0" y="10" width="3" height="7" fill="#B7410E"/>
+  <rect x="997" y="10" width="3" height="7" fill="#B7410E"/>
+  <g class="rm">
+    <rect x="140" y="12" width="140" height="3" rx="1.5" fill="url(#sweep)">
+      <animateTransform attributeName="transform" type="translate" from="-300 0" to="1000 0" dur="5.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <path d="M500 8 L505 13.5 L500 19 L495 13.5 Z" fill="#0D0B09" stroke="#FF6B1A" stroke-width="1.5"/>
+</svg>
