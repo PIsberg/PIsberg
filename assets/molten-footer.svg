@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="190" viewBox="0 0 1000 190" role="img" aria-label="A thumbs-up sinking into molten steel. I will be back.">
+  <title>Thumbs-up in molten steel - I will be back</title>
+  <defs>
+    <linearGradient id="heat" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FF2A1A" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#FF2A1A" stop-opacity="0.16"/>
+    </linearGradient>
+    <linearGradient id="lava" x1="0" y1="120" x2="0" y2="190" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FF6B1A"/>
+      <stop offset="45%" stop-color="#FF2A1A"/>
+      <stop offset="100%" stop-color="#7A1408"/>
+    </linearGradient>
+  </defs>
+  <style>
+    @media (prefers-reduced-motion: reduce) { .rm { display: none; } }
+  </style>
+
+  <rect width="1000" height="190" fill="#0D0B09"/>
+  <rect x="0" y="0" width="1000" height="1" fill="#3D2A18"/>
+  <rect x="0" y="58" width="1000" height="58" fill="url(#heat)"/>
+
+  <text x="985" y="28" text-anchor="end" font-family="Consolas, Menlo, monospace" font-size="12" fill="#8A8177" textLength="130">// I WILL BE BACK</text>
+
+  <!-- back wave -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="-1000 0" dur="26s" repeatCount="indefinite"/>
+    <path d="M0 116 Q125 102 250 116 T500 116 T750 116 T1000 116 T1250 116 T1500 116 T1750 116 T2000 116 L2000 190 L0 190 Z" fill="#B7410E" opacity="0.9"/>
+  </g>
+
+  <!-- embers: visible at rest, rise and fade when animating -->
+  <g class="rm">
+    <circle cx="470" cy="96" r="2" fill="#FF6B1A" opacity="0.85">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="0 -80" dur="5s" begin="-1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0.9;0" keyTimes="0;0.55;1" dur="5s" begin="-1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="515" cy="84" r="1.6" fill="#FFD9A0" opacity="0.85">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="0 -80" dur="6s" begin="-3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0.9;0" keyTimes="0;0.55;1" dur="6s" begin="-3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="545" cy="102" r="2.4" fill="#FF2A1A" opacity="0.85">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="0 -80" dur="7s" begin="-2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0.9;0" keyTimes="0;0.55;1" dur="7s" begin="-2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="432" cy="110" r="1.8" fill="#FF6B1A" opacity="0.85">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="0 -80" dur="5.5s" begin="-4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0.9;0" keyTimes="0;0.55;1" dur="5.5s" begin="-4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="585" cy="92" r="1.5" fill="#FFD9A0" opacity="0.85">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="0 -80" dur="6.5s" begin="-0.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0.9;0" keyTimes="0;0.55;1" dur="6.5s" begin="-0.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="388" cy="104" r="2" fill="#FF6B1A" opacity="0.85">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="0 -80" dur="7.5s" begin="-5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0.9;0" keyTimes="0;0.55;1" dur="7.5s" begin="-5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="622" cy="108" r="1.7" fill="#FF2A1A" opacity="0.85">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="0 -80" dur="5.2s" begin="-2.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0.9;0" keyTimes="0;0.55;1" dur="5.2s" begin="-2.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="300" cy="112" r="1.5" fill="#FFD9A0" opacity="0.7">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="0 -60" dur="6.8s" begin="-3.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0.8;0" keyTimes="0;0.55;1" dur="6.8s" begin="-3.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="700" cy="110" r="2" fill="#FF6B1A" opacity="0.7">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="0 -60" dur="5.8s" begin="-1.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0.8;0" keyTimes="0;0.55;1" dur="5.8s" begin="-1.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- the hand: at rest it holds the classic pose; animated, it slowly sinks and comes back -->
+  <g transform="translate(455 20)">
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 16;0 0" keyTimes="0;0.55;1" dur="30s" repeatCount="indefinite"/>
+      <g fill="#14100C" stroke="#3D2A18" stroke-width="1" transform="rotate(-5 50 90)">
+        <path d="M24 62 C17 46 18 22 28 9 C34 1 47 4 47 15 C47 33 45 50 43 62 Z"/>
+        <rect x="14" y="58" width="74" height="54" rx="13"/>
+        <rect x="34" y="108" width="34" height="36"/>
+        <path d="M32 73 H82 M32 87 H82 M32 101 H82" stroke="#2A1F16" stroke-width="2.5" fill="none" opacity="0.9"/>
+        <path d="M24 62 C17 46 18 22 28 9" stroke="#FF6B1A" stroke-width="1.5" fill="none" opacity="0.55"/>
+        <path d="M88 66 C92 74 92 100 88 108" stroke="#FF6B1A" stroke-width="1.5" fill="none" opacity="0.35"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- front wave with shimmer edge -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" from="-1000 0" to="0 0" dur="17s" repeatCount="indefinite"/>
+    <path d="M0 132 Q125 144 250 132 T500 132 T750 132 T1000 132 T1250 132 T1500 132 T1750 132 T2000 132 L2000 190 L0 190 Z" fill="url(#lava)"/>
+    <path d="M0 132 Q125 144 250 132 T500 132 T750 132 T1000 132 T1250 132 T1500 132 T1750 132 T2000 132" fill="none" stroke="#FFD9A0" stroke-width="1.5" opacity="0.35"/>
+  </g>
+</svg>

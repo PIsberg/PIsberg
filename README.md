@@ -1,27 +1,17 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0B09,45:B7410E,100:FF6B1A&height=150&section=header" alt="" />
+<img src="assets/hud-header.svg" alt="T-800 heads-up display. PETER ISBERG. Guardrails for the machines that write the code. Power cell: Java 26. Location: Gothenburg, SE. Directive: no fate but what we compile." />
 
-<h1>Peter Isberg</h1>
-
-<b>Developer by profession. Vibecoding after hours.</b><br />
-Guardrails for the machines that write the code. Gothenburg, Sweden.
+<b>Developer by profession. Vibecoding after hours.</b>
 
 <p>
-<img src="https://img.shields.io/badge/STATUS-T--800_ONLINE-FF6B1A?style=for-the-badge&labelColor=0D0B09" alt="Status" />
-<img src="https://img.shields.io/badge/CPU-JAVA_26-FF6B1A?style=for-the-badge&labelColor=0D0B09" alt="CPU" />
-<img src="https://img.shields.io/badge/DIRECTIVE-NO_FATE_BUT_WHAT_WE_COMPILE-B7410E?style=for-the-badge&labelColor=0D0B09" alt="Directive" />
-</p>
-
-
 <a href="http://www.deversity.se"><img src="https://img.shields.io/badge/deversity.se-0D0B09?style=for-the-badge&logo=firefoxbrowser&logoColor=FF6B1A" alt="Website" /></a>
 <a href="mailto:isberg.peter@gmail.com"><img src="https://img.shields.io/badge/Email-0D0B09?style=for-the-badge&logo=maildotru&logoColor=FF6B1A" alt="Email" /></a>
 <a href="https://github.com/PIsberg?tab=followers"><img src="https://img.shields.io/github/followers/PIsberg?style=for-the-badge&logo=github&logoColor=FF6B1A&color=0D0B09&labelColor=0D0B09" alt="Followers" /></a>
 <img src="https://komarev.com/ghpvc/?username=PIsberg&style=for-the-badge&color=B7410E&label=SCANS" alt="Profile views" />
+</p>
 
 </div>
-
----
 
 ```console
 > ./t800 --status
@@ -38,41 +28,55 @@ Guardrails for the machines that write the code. Gothenburg, Sweden.
 > _
 ```
 
-### 🔥 About Me
+<img src="assets/divider.svg" alt="" />
 
-- 🔭 Building **[vibetags](https://github.com/PIsberg/vibetags)**, Java annotations that tell Claude, Cursor and Codex which code they are not allowed to touch
-- 🧪 Making concurrency bugs reproducible instead of lucky with **[async-test-lib](https://github.com/PIsberg/async-test-lib)**
-- 🛡️ Running a local **[prompt injection firewall](https://github.com/PIsberg/llm-fw)** between my tools and every LLM API
-- 🧠 Ask me about Java, AI guardrails, static analysis, MCP servers, and why a green test suite is not proof
-- 📫 Reach me at [isberg.peter@gmail.com](mailto:isberg.peter@gmail.com) or [deversity.se](http://www.deversity.se)
-- 🤝 Open to work
+### `>> MISSION_PARAMETERS`
 
----
+- **`ACTIVE`** Building **[vibetags](https://github.com/PIsberg/vibetags)**, Java annotations that tell Claude, Cursor and Codex which code they are not allowed to touch
+- **`LAB`** Making concurrency bugs reproducible instead of lucky with **[async-test-lib](https://github.com/PIsberg/async-test-lib)**
+- **`SHIELD`** Running a local **[prompt injection firewall](https://github.com/PIsberg/llm-fw)** between my tools and every LLM API
+- **`UPLINK`** Ask me about Java, AI guardrails, static analysis, MCP servers, and why a green test suite is not proof
+- **`COMMS`** Reach me at [isberg.peter@gmail.com](mailto:isberg.peter@gmail.com) or [deversity.se](http://www.deversity.se)
 
-### 🦾 Tech Stack
+<img src="assets/divider.svg" alt="" />
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Java-0D0B09?style=for-the-badge&logo=openjdk&logoColor=FF6B1A" alt="Java" />
-  <img src="https://img.shields.io/badge/Spring_Boot-0D0B09?style=for-the-badge&logo=springboot&logoColor=FF6B1A" alt="Spring Boot" />
-  <img src="https://img.shields.io/badge/Gradle-0D0B09?style=for-the-badge&logo=gradle&logoColor=FF6B1A" alt="Gradle" />
-  <img src="https://img.shields.io/badge/Maven-0D0B09?style=for-the-badge&logo=apachemaven&logoColor=FF6B1A" alt="Maven" />
-  <img src="https://img.shields.io/badge/Rust-0D0B09?style=for-the-badge&logo=rust&logoColor=FF6B1A" alt="Rust" />
-  <img src="https://img.shields.io/badge/TypeScript-0D0B09?style=for-the-badge&logo=typescript&logoColor=FF6B1A" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Go-0D0B09?style=for-the-badge&logo=go&logoColor=FF6B1A" alt="Go" />
-  <img src="https://img.shields.io/badge/Python-0D0B09?style=for-the-badge&logo=python&logoColor=FF6B1A" alt="Python" />
-</p>
-<p align="left">
-  <img src="https://img.shields.io/badge/Docker-0D0B09?style=for-the-badge&logo=docker&logoColor=FF6B1A" alt="Docker" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-0D0B09?style=for-the-badge&logo=githubactions&logoColor=FF6B1A" alt="GitHub Actions" />
-  <img src="https://img.shields.io/badge/Claude-0D0B09?style=for-the-badge&logo=anthropic&logoColor=FF6B1A" alt="Claude" />
-  <img src="https://img.shields.io/badge/MCP-0D0B09?style=for-the-badge&logo=modelcontextprotocol&logoColor=FF6B1A" alt="Model Context Protocol" />
-  <img src="https://img.shields.io/badge/Linux-0D0B09?style=for-the-badge&logo=linux&logoColor=FF6B1A" alt="Linux" />
-  <img src="https://img.shields.io/badge/IntelliJ_IDEA-0D0B09?style=for-the-badge&logo=intellijidea&logoColor=FF6B1A" alt="IntelliJ IDEA" />
-</p>
+### `>> WEAPONS_SYSTEMS`
 
----
+<table>
+<tr>
+<td align="right"><code>PRIMARY</code></td>
+<td>
+<img src="https://img.shields.io/badge/Java-0D0B09?style=for-the-badge&logo=openjdk&logoColor=FF6B1A" alt="Java" />
+<img src="https://img.shields.io/badge/Spring_Boot-0D0B09?style=for-the-badge&logo=springboot&logoColor=FF6B1A" alt="Spring Boot" />
+<img src="https://img.shields.io/badge/Gradle-0D0B09?style=for-the-badge&logo=gradle&logoColor=FF6B1A" alt="Gradle" />
+<img src="https://img.shields.io/badge/Maven-0D0B09?style=for-the-badge&logo=apachemaven&logoColor=FF6B1A" alt="Maven" />
+</td>
+</tr>
+<tr>
+<td align="right"><code>SIDEARMS</code></td>
+<td>
+<img src="https://img.shields.io/badge/Rust-0D0B09?style=for-the-badge&logo=rust&logoColor=FF6B1A" alt="Rust" />
+<img src="https://img.shields.io/badge/TypeScript-0D0B09?style=for-the-badge&logo=typescript&logoColor=FF6B1A" alt="TypeScript" />
+<img src="https://img.shields.io/badge/Go-0D0B09?style=for-the-badge&logo=go&logoColor=FF6B1A" alt="Go" />
+<img src="https://img.shields.io/badge/Python-0D0B09?style=for-the-badge&logo=python&logoColor=FF6B1A" alt="Python" />
+</td>
+</tr>
+<tr>
+<td align="right"><code>SUPPORT</code></td>
+<td>
+<img src="https://img.shields.io/badge/Docker-0D0B09?style=for-the-badge&logo=docker&logoColor=FF6B1A" alt="Docker" />
+<img src="https://img.shields.io/badge/GitHub_Actions-0D0B09?style=for-the-badge&logo=githubactions&logoColor=FF6B1A" alt="GitHub Actions" />
+<img src="https://img.shields.io/badge/Claude-0D0B09?style=for-the-badge&logo=anthropic&logoColor=FF6B1A" alt="Claude" />
+<img src="https://img.shields.io/badge/MCP-0D0B09?style=for-the-badge&logo=modelcontextprotocol&logoColor=FF6B1A" alt="Model Context Protocol" />
+<img src="https://img.shields.io/badge/Linux-0D0B09?style=for-the-badge&logo=linux&logoColor=FF6B1A" alt="Linux" />
+<img src="https://img.shields.io/badge/IntelliJ_IDEA-0D0B09?style=for-the-badge&logo=intellijidea&logoColor=FF6B1A" alt="IntelliJ IDEA" />
+</td>
+</tr>
+</table>
 
-### 🎯 Primary Targets
+<img src="assets/divider.svg" alt="" />
+
+### `>> PRIMARY_TARGETS`
 
 <table>
 <tr><th align="left">Repo</th><th align="left">Stars</th><th align="left">What it does</th></tr>
@@ -123,19 +127,18 @@ Guardrails for the machines that write the code. Gothenburg, Sweden.
 </tr>
 </table>
 
----
+<img src="assets/divider.svg" alt="" />
 
-### 📊 Combat Telemetry
+### `>> COMBAT_TELEMETRY`
 
 <div align="center">
 
-
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=PIsberg&background=0D0B09&border=3D2A18&stroke=3D2A18&ring=FF6B1A&fire=FF2A1A&currStreakNum=FFF5E6&sideNums=D9D2C7&currStreakLabel=FF6B1A&sideLabels=D9D2C7&dates=8A8177&disable_animations=true" alt="Commit streak" />
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=PIsberg&theme=monokai" alt="Languages by repo" height="200" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=PIsberg&theme=monokai" alt="Languages by commit" height="200" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=PIsberg&theme=gruvbox" alt="Languages by repo" height="200" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=PIsberg&theme=gruvbox" alt="Languages by commit" height="200" />
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=PIsberg&theme=monokai" alt="Profile stats" height="200" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=PIsberg&theme=gruvbox" alt="Profile stats" height="200" />
 
 </div>
 
@@ -149,12 +152,10 @@ Guardrails for the machines that write the code. Gothenburg, Sweden.
   <img src="https://HOST/api/pin/?username=PIsberg&repo=vibetags&bg_color=0D0B09&title_color=FF6B1A&text_color=D9D2C7&icon_color=FF2A1A&border_color=3D2A18" />
 -->
 
----
-
 <div align="center">
 
 *Come with me if you want to ship.*
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0B09,45:B7410E,100:FF6B1A&height=110&section=footer" alt="" />
+<img src="assets/molten-footer.svg" alt="A thumbs-up slowly sinking into molten steel. I will be back." />
 
 </div>
