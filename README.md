@@ -1,8 +1,18 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0B09,45:B7410E,100:FF6B1A&height=190&section=header&text=Peter%20Isberg&fontColor=FFF5E6&fontSize=54&fontAlignY=38&desc=Developer%20by%20profession.%20Vibecoding%20after%20hours.&descSize=16&descAlignY=58" alt="Peter Isberg" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0B09,45:B7410E,100:FF6B1A&height=150&section=header" alt="" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=3200&pause=900&color=FF6B1A&center=true&vCenter=true&width=780&lines=T-800+ONLINE+%E2%80%A2+CPU%3A+JAVA+26+%E2%80%A2+MISSION%3A+SHIP+IT;No+fate+but+what+we+compile.;Guardrails+for+the+machines+that+write+the+code.;Gothenburg%2C+Sweden+%7C+Deversity+AB" alt="Terminal readout" />
+<h1>Peter Isberg</h1>
+
+<b>Developer by profession. Vibecoding after hours.</b><br />
+Guardrails for the machines that write the code. Gothenburg, Sweden.
+
+<p>
+<img src="https://img.shields.io/badge/STATUS-T--800_ONLINE-FF6B1A?style=for-the-badge&labelColor=0D0B09" alt="Status" />
+<img src="https://img.shields.io/badge/CPU-JAVA_26-FF6B1A?style=for-the-badge&labelColor=0D0B09" alt="CPU" />
+<img src="https://img.shields.io/badge/DIRECTIVE-NO_FATE_BUT_WHAT_WE_COMPILE-B7410E?style=for-the-badge&labelColor=0D0B09" alt="Directive" />
+</p>
+
 
 <a href="http://www.deversity.se"><img src="https://img.shields.io/badge/deversity.se-0D0B09?style=for-the-badge&logo=firefoxbrowser&logoColor=FF6B1A" alt="Website" /></a>
 <a href="mailto:isberg.peter@gmail.com"><img src="https://img.shields.io/badge/Email-0D0B09?style=for-the-badge&logo=maildotru&logoColor=FF6B1A" alt="Email" /></a>
@@ -119,15 +129,13 @@
 
 <div align="center">
 
-<img src="https://ghchart.rshah.org/FF6B1A/PIsberg" alt="Contribution heat" width="90%" />
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=PIsberg&background=0D0B09&border=3D2A18&stroke=3D2A18&ring=FF6B1A&fire=FF2A1A&currStreakNum=FFF5E6&sideNums=D9D2C7&currStreakLabel=FF6B1A&sideLabels=D9D2C7&dates=8A8177" alt="Commit streak" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=PIsberg&background=0D0B09&border=3D2A18&stroke=3D2A18&ring=FF6B1A&fire=FF2A1A&currStreakNum=FFF5E6&sideNums=D9D2C7&currStreakLabel=FF6B1A&sideLabels=D9D2C7&dates=8A8177&disable_animations=true" alt="Commit streak" />
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=PIsberg&theme=monokai" alt="Languages by repo" height="200" />
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=PIsberg&theme=monokai" alt="Languages by commit" height="200" />
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=PIsberg&theme=monokai" alt="Profile stats" height="200" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=PIsberg&theme=monokai&utcOffset=2" alt="Productive time" height="200" />
 
 </div>
 
