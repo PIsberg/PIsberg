@@ -13,20 +13,22 @@
 
 </div>
 
-```console
-> ./t800 --status
-+==============================================================+
-|  CYBERDYNE SYSTEMS MODEL 101   ::   VISUAL CORTEX ONLINE     |
-+==============================================================+
-|  TARGET .......... AI guardrails, concurrency bugs,          |
-|                    static analysis, MCP tooling              |
-|  PRIMARY WEAPON .. Java 25/26       SIDEARM ... Rust, TS, Go |
-|  BASE ............ Gothenburg, SE   ORG ....... Deversity AB |
-|  MISSION LOG ..... 35 public repos, and counting             |
-|  DIRECTIVE ....... Star a repo or two if you like them.      |
-+==============================================================+
-> _
-```
+<div align="center">
+
+### `>> FIELD_MANUAL`
+
+<a href="https://www.amazon.com/Vibe-Coding-Architecture-Scale-AI-assisted-ebook/dp/B0HF3MLBB8">
+<img src="assets/book-cover.jpg" alt="Cover of Vibe Architecture, the book on designing, scaling, and guardrailing large-scale systems in the age of AI orchestration" width="380" />
+</a>
+
+**Vibe coding gives you speed. Vibe Architecture gives you scale.**
+
+*When syntax is free, structure is your only asset. The book on designing, scaling,*
+*and guardrailing large-scale systems in the age of AI orchestration.*
+
+<a href="https://www.amazon.com/Vibe-Coding-Architecture-Scale-AI-assisted-ebook/dp/B0HF3MLBB8"><img src="https://img.shields.io/badge/GET_IT_ON_AMAZON-0D0B09?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0ZGNkIxQSI+PHBhdGggZD0iTTYgMmEyIDIgMCAwIDAtMiAydjE2YTIgMiAwIDAgMCAyIDJoMTR2LTJINmExIDEgMCAwIDEgMC0yaDE0VjJINnptMiAzaDl2Mkg4VjV6Ii8+PC9zdmc+" alt="Buy Vibe Architecture on Amazon" /></a>
+
+</div>
 
 <img src="assets/divider.svg" alt="" />
 
