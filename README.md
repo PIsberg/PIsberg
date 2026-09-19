@@ -1,11 +1,11 @@
 <!--
   Every image under assets/cards and assets/ui is generated: edit the tables in
-  tools/gen_assets.py and run `python tools/gen_assets.py`. Only assets/banner.svg is hand-drawn.
+  tools/gen_assets.py and run `python tools/gen_assets.py`. Only assets/hud-header.svg is hand-drawn.
 -->
 
 <div align="center">
 
-<img src="assets/banner.svg" alt="Peter Isberg. Software developer and author. Guardrails for the machines that write the code. Gothenburg, Sweden." width="100%" />
+<img src="assets/hud-header.svg" alt="T-800 heads-up display. PETER ISBERG. Guardrails for the machines that write the code. Power cell: Java 26. Location: Gothenburg, SE. Directive: no fate but what we compile." width="100%" />
 
 <p>
 <a href="https://www.amazon.com/Vibe-Coding-Architecture-Scale-AI-assisted-ebook/dp/B0HF3MLBB8"><img src="assets/ui/btn-book.svg" alt="Read the book" width="190" /></a>
