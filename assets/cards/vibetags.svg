@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="210" viewBox="0 0 1000 210" role="img" aria-label="vibetags: Java annotations as AI guardrails. Mark the code an agent must not rewrite, and it stops rewriting it. Works with Claude, Cursor and Codex.">
+  <title>vibetags: Java annotations as AI guardrails. Mark the code an agent must not rewrite, and it stops rewriting it. Works with Claude, Cursor and Codex.</title>
+  <defs>
+    <linearGradient id="bgvibetags" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1220"/>
+      <stop offset="100%" stop-color="#111B2E"/>
+    </linearGradient>
+    <linearGradient id="acvibetags" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F97316"/>
+      <stop offset="100%" stop-color="#FBBF24"/>
+    </linearGradient>
+    <linearGradient id="topvibetags" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F97316" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#FBBF24" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glowvibetags" cx="0%" cy="0%" r="75%">
+      <stop offset="0%" stop-color="#F97316" stop-opacity="0.13"/>
+      <stop offset="100%" stop-color="#F97316" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="clipvibetags"><rect width="1000" height="210" rx="12"/></clipPath>
+  </defs>
+  <g clip-path="url(#clipvibetags)">
+    <rect width="1000" height="210" fill="url(#bgvibetags)"/>
+    <rect width="1000" height="210" fill="url(#glowvibetags)"/>
+    <rect width="1000" height="2" fill="url(#topvibetags)"/>
+    <rect x="28" y="28" width="40" height="40" rx="10" fill="#F97316" fill-opacity="0.1" stroke="#F97316" stroke-opacity="0.35"/>
+    <path transform="translate(36 36)" d="M12 3l8 3v6c0 5-3.4 8.5-8 10c-4.6-1.5-8-5-8-10V6zM8.5 12l2.5 2.5l4.5-5" fill="none" stroke="url(#acvibetags)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="84" y="41" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12" fill="#7C8BA5">PIsberg /</text>
+    <text x="84" y="63" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#F8FAFC">vibetags</text>
+    <rect x="196" y="44" width="78" height="22" rx="11" fill="#F97316" fill-opacity="0.14" stroke="#F97316" stroke-opacity="0.5"/>
+    <text x="235" y="59" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.5" fill="#F97316">FEATURED</text>
+    <text x="28" y="104" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="14.5" fill="#AEB9CC">Java annotations as AI guardrails. Mark the code an agent must</text>
+    <text x="28" y="126" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="14.5" fill="#AEB9CC">not rewrite, and it stops rewriting it. Works with Claude,</text>
+    <text x="28" y="148" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="14.5" fill="#AEB9CC">Cursor and Codex.</text>
+    <circle cx="33" cy="184" r="5" fill="#B07219"/>
+    <text x="45" y="188" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12.5" fill="#CBD5E1">Java</text>
+    <text x="480" y="188" text-anchor="end" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#F97316">View repository &#8594;</text>
+    <rect x="520" y="30" width="452" height="150" rx="10" fill="#060B16" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    <circle cx="540" cy="48" r="4.5" fill="#F87171"/><circle cx="556" cy="48" r="4.5" fill="#FBBF24"/><circle cx="572" cy="48" r="4.5" fill="#4ADE80"/>
+    <text x="956" y="52" text-anchor="end" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11" fill="#64748B">PaymentProcessor.java</text>
+    <path d="M520 66h452" stroke="#FFFFFF" stroke-opacity="0.06"/>
+    <text x="540" y="92" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="13" xml:space="preserve"><tspan fill="#FBBF24">@AILocked</tspan><tspan fill="#CBD5E1">(reason = </tspan><tspan fill="#86EFAC">"Legacy payment integration"</tspan><tspan fill="#CBD5E1">)</tspan></text>
+    <text x="540" y="113" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="13" xml:space="preserve"><tspan fill="#F97316">public interface </tspan><tspan fill="#F8FAFC">PaymentProcessor</tspan><tspan fill="#CBD5E1"> {</tspan></text>
+    <text x="540" y="134" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="13" xml:space="preserve"><tspan fill="#64748B">    // an agent may read this. It may not rewrite it.</tspan></text>
+    <text x="540" y="155" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="13" xml:space="preserve"><tspan fill="#CBD5E1">}</tspan></text>
+    <rect x="0.5" y="0.5" width="999" height="209" rx="11.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.09"/>
+  </g>
+</svg>

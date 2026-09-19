@@ -48,56 +48,24 @@ guardrailing large-scale systems in the age of AI orchestration.
 
 ## Open source
 
-<table>
-<tr><th align="left" width="170">Project</th><th align="left">What it does</th><th align="left" width="80">Stars</th></tr>
-<tr><td colspan="3"><b>Guardrails for AI agents</b></td></tr>
-<tr>
-<td><a href="https://github.com/PIsberg/vibetags"><b>vibetags</b></a></td>
-<td>Java annotations as AI guardrails. Mark the code an agent must not rewrite, and it stops rewriting it.</td>
-<td><img src="https://img.shields.io/github/stars/PIsberg/vibetags?style=flat-square&label=%20&logo=github&logoColor=F97316&color=111B2E&labelColor=111B2E" alt="vibetags stars" /></td>
-</tr>
-<tr>
-<td><a href="https://github.com/PIsberg/llm-fw"><b>llm-fw</b></a></td>
-<td>Local prompt injection firewall. Malicious prompts are blocked and logged, clean ones pass through.</td>
-<td><img src="https://img.shields.io/github/stars/PIsberg/llm-fw?style=flat-square&label=%20&logo=github&logoColor=F97316&color=111B2E&labelColor=111B2E" alt="llm-fw stars" /></td>
-</tr>
-<tr>
-<td><a href="https://github.com/PIsberg/axiom"><b>axiom</b></a></td>
-<td>The codebase as a live queryable graph, so an agent can see what it just broke.</td>
-<td><img src="https://img.shields.io/github/stars/PIsberg/axiom?style=flat-square&label=%20&logo=github&logoColor=F97316&color=111B2E&labelColor=111B2E" alt="axiom stars" /></td>
-</tr>
-<tr>
-<td><a href="https://github.com/PIsberg/skill3"><b>skill3</b></a></td>
-<td>Relearns a technical skill for an agent, anchored to a target model cutoff, and vets the result.</td>
-<td><img src="https://img.shields.io/github/stars/PIsberg/skill3?style=flat-square&label=%20&logo=github&logoColor=F97316&color=111B2E&labelColor=111B2E" alt="skill3 stars" /></td>
-</tr>
-<tr>
-<td><a href="https://github.com/PIsberg/ghost-mcp"><b>ghost-mcp</b></a></td>
-<td>MCP server that exposes OS level UI automation to AI clients.</td>
-<td><img src="https://img.shields.io/github/stars/PIsberg/ghost-mcp?style=flat-square&label=%20&logo=github&logoColor=F97316&color=111B2E&labelColor=111B2E" alt="ghost-mcp stars" /></td>
-</tr>
-<tr><td colspan="3"><b>Java correctness and analysis</b></td></tr>
-<tr>
-<td><a href="https://github.com/PIsberg/async-test-lib"><b>async-test-lib</b></a></td>
-<td>Forces concurrency bugs to happen using synchronized barriers, then names the one that fired.</td>
-<td><img src="https://img.shields.io/github/stars/PIsberg/async-test-lib?style=flat-square&label=%20&logo=github&logoColor=F97316&color=111B2E&labelColor=111B2E" alt="async-test-lib stars" /></td>
-</tr>
-<tr>
-<td><a href="https://github.com/PIsberg/codekoll"><b>codekoll</b></a></td>
-<td>Static analyzer for Java that finds the bugs which compile perfectly and detonate in production.</td>
-<td><img src="https://img.shields.io/github/stars/PIsberg/codekoll?style=flat-square&label=%20&logo=github&logoColor=F97316&color=111B2E&labelColor=111B2E" alt="codekoll stars" /></td>
-</tr>
-<tr>
-<td><a href="https://github.com/PIsberg/codekarta"><b>codekarta</b></a></td>
-<td>Parses Java source and emits SVG maps: call graphs, exception flow, state machines.</td>
-<td><img src="https://img.shields.io/github/stars/PIsberg/codekarta?style=flat-square&label=%20&logo=github&logoColor=F97316&color=111B2E&labelColor=111B2E" alt="codekarta stars" /></td>
-</tr>
-<tr>
-<td><a href="https://github.com/PIsberg/blindbean"><b>blindbean</b></a></td>
-<td>Homomorphic encryption hidden behind ordinary Java objects and annotations.</td>
-<td><img src="https://img.shields.io/github/stars/PIsberg/blindbean?style=flat-square&label=%20&logo=github&logoColor=F97316&color=111B2E&labelColor=111B2E" alt="blindbean stars" /></td>
-</tr>
-</table>
+### Guardrails for AI agents
+
+<p align="center">
+<a href="https://github.com/PIsberg/vibetags"><img src="assets/cards/vibetags.svg" alt="vibetags: Java annotations as AI guardrails. Mark the code an agent must not rewrite, and it stops rewriting it. Works with Claude, Cursor and Codex." width="100%" /></a>
+<a href="https://github.com/PIsberg/llm-fw"><img src="assets/cards/llm-fw.svg" alt="llm-fw: Local prompt injection firewall. Malicious prompts are blocked and logged, clean ones pass through." width="49.5%" /></a>
+<a href="https://github.com/PIsberg/axiom"><img src="assets/cards/axiom.svg" alt="axiom: The codebase as a live queryable graph, so an agent can see what it just broke." width="49.5%" /></a>
+<a href="https://github.com/PIsberg/skill3"><img src="assets/cards/skill3.svg" alt="skill3: Relearns a technical skill for an agent, anchored to a target model cutoff, and vets the result." width="49.5%" /></a>
+<a href="https://github.com/PIsberg/ghost-mcp"><img src="assets/cards/ghost-mcp.svg" alt="ghost-mcp: MCP server that exposes OS level UI automation to AI clients." width="49.5%" /></a>
+</p>
+
+### Java correctness and analysis
+
+<p align="center">
+<a href="https://github.com/PIsberg/async-test-lib"><img src="assets/cards/async-test-lib.svg" alt="async-test-lib: Forces concurrency bugs to happen using synchronized barriers, then names the one that fired." width="49.5%" /></a>
+<a href="https://github.com/PIsberg/codekoll"><img src="assets/cards/codekoll.svg" alt="codekoll: Static analyzer for Java that finds the bugs which compile perfectly and detonate in production." width="49.5%" /></a>
+<a href="https://github.com/PIsberg/codekarta"><img src="assets/cards/codekarta.svg" alt="codekarta: Parses Java source and emits SVG maps: call graphs, exception flow, state machines." width="49.5%" /></a>
+<a href="https://github.com/PIsberg/blindbean"><img src="assets/cards/blindbean.svg" alt="blindbean: Homomorphic encryption hidden behind ordinary Java objects and annotations." width="49.5%" /></a>
+</p>
 
 ## Toolbox
 
