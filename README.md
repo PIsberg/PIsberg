@@ -82,6 +82,8 @@ production.
 
 </div>
 
+<br />
+
 <a href="mailto:isberg.peter@gmail.com"><img src="assets/ui/footer.svg" alt="Building with AI agents and want it to stay correct? Get in touch: isberg.peter@gmail.com" width="100%" /></a>
 
 <div align="center">
