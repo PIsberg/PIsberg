@@ -33,8 +33,8 @@
     <rect width="1000" height="372" fill="url(#bgpipe)"/>
     <rect width="1000" height="372" fill="url(#glowpipe)"/>
     <rect width="1000" height="2" fill="url(#toppipe)"/>
-    <text x="40" y="44" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#F97316" letter-spacing="3">HOW THE PROJECTS FIT TOGETHER</text>
-    <text x="960" y="44" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#7C8BA5" text-anchor="end">one pipeline, agent to production</text>
+    <text x="40" y="44" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#F97316" letter-spacing="3">FROM AGENT TO PRODUCTION</text>
+    <text x="960" y="44" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#7C8BA5" text-anchor="end">8 projects, 3 checkpoints</text>
     <rect x="70" y="101" width="860" height="6" rx="3" fill="#F97316" fill-opacity="0.3" filter="url(#softpipe)"/>
     <rect x="70" y="103" width="860" height="2" rx="1" fill="url(#acpipe)"/>
     <circle class="motion" r="3.5" fill="#FFF7ED" opacity="0">
@@ -53,48 +53,48 @@
     <text x="62" y="86" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="12" font-weight="400" fill="#CBD5E1">AI agent</text>
     <circle cx="930" cy="104" r="7" fill="#080D19" stroke="#F97316" stroke-width="2"/>
     <text x="938" y="86" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="12" font-weight="400" fill="#CBD5E1" text-anchor="end">production</text>
-    <path d="M230 118V136" stroke="#F97316" stroke-opacity="0.45" stroke-width="1.5" stroke-dasharray="3 4"/>
-    <circle cx="230" cy="104" r="14" fill="#080D19" stroke="url(#acpipe)" stroke-width="2"/>
-    <text x="230" y="108.5" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="13" font-weight="700" fill="#FBBF24" text-anchor="middle">1</text>
-    <rect x="95" y="136" width="270" height="212" rx="10" fill="#060B16" fill-opacity="0.7" stroke="#FFFFFF" stroke-opacity="0.07"/>
-    <text x="115" y="166" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="700" fill="#F97316" letter-spacing="1.5">BEFORE IT WRITES</text>
-    <path d="M115 178h230" stroke="#FFFFFF" stroke-opacity="0.07"/>
-    <circle cx="120" cy="201" r="3" fill="#F97316"/>
-    <text x="133" y="206" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#F8FAFC">skill3</text>
-    <text x="133" y="224" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#AEB9CC">teaches the agent current skills</text>
-    <circle cx="120" cy="251" r="3" fill="#F97316"/>
-    <text x="133" y="256" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#F8FAFC">llm-fw</text>
-    <text x="133" y="274" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#AEB9CC">filters prompts before the model</text>
+    <path d="M190 118V136" stroke="#F97316" stroke-opacity="0.45" stroke-width="1.5" stroke-dasharray="3 4"/>
+    <circle cx="190" cy="104" r="14" fill="#080D19" stroke="url(#acpipe)" stroke-width="2"/>
+    <text x="190" y="108.5" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="13" font-weight="700" fill="#FBBF24" text-anchor="middle">1</text>
+    <rect x="45" y="136" width="290" height="212" rx="10" fill="#060B16" fill-opacity="0.7" stroke="#FFFFFF" stroke-opacity="0.07"/>
+    <text x="65" y="166" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="700" fill="#F97316" letter-spacing="1.5">BEFORE IT WRITES</text>
+    <path d="M65 178h250" stroke="#FFFFFF" stroke-opacity="0.07"/>
+    <circle cx="70" cy="201" r="3" fill="#F97316"/>
+    <text x="83" y="206" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#F8FAFC">skill3</text>
+    <text x="83" y="224" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#AEB9CC">teaches the agent current skills</text>
+    <circle cx="70" cy="251" r="3" fill="#F97316"/>
+    <text x="83" y="256" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#F8FAFC">llm-fw</text>
+    <text x="83" y="274" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#AEB9CC">filters prompts before the model</text>
     <path d="M500 118V136" stroke="#F97316" stroke-opacity="0.45" stroke-width="1.5" stroke-dasharray="3 4"/>
     <circle cx="500" cy="104" r="14" fill="#080D19" stroke="url(#acpipe)" stroke-width="2"/>
     <text x="500" y="108.5" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="13" font-weight="700" fill="#FBBF24" text-anchor="middle">2</text>
-    <rect x="365" y="136" width="270" height="212" rx="10" fill="#060B16" fill-opacity="0.7" stroke="#FFFFFF" stroke-opacity="0.07"/>
-    <text x="385" y="166" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="700" fill="#F97316" letter-spacing="1.5">WHILE IT WRITES</text>
-    <path d="M385 178h230" stroke="#FFFFFF" stroke-opacity="0.07"/>
-    <circle cx="390" cy="201" r="3" fill="#F97316"/>
-    <text x="403" y="206" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#F8FAFC">vibetags</text>
-    <text x="403" y="224" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#AEB9CC">fences off code it must not touch</text>
-    <circle cx="390" cy="251" r="3" fill="#F97316"/>
-    <text x="403" y="256" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#F8FAFC">axiom</text>
-    <text x="403" y="274" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#AEB9CC">shows what a change just broke</text>
-    <circle cx="390" cy="301" r="3" fill="#F97316"/>
-    <text x="403" y="306" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#F8FAFC">ghost-mcp</text>
-    <text x="403" y="324" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#AEB9CC">gives it hands on the desktop</text>
-    <path d="M770 118V136" stroke="#F97316" stroke-opacity="0.45" stroke-width="1.5" stroke-dasharray="3 4"/>
-    <circle cx="770" cy="104" r="14" fill="#080D19" stroke="url(#acpipe)" stroke-width="2"/>
-    <text x="770" y="108.5" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="13" font-weight="700" fill="#FBBF24" text-anchor="middle">3</text>
-    <rect x="635" y="136" width="270" height="212" rx="10" fill="#060B16" fill-opacity="0.7" stroke="#FFFFFF" stroke-opacity="0.07"/>
-    <text x="655" y="166" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="700" fill="#F97316" letter-spacing="1.5">BEFORE IT SHIPS</text>
-    <path d="M655 178h230" stroke="#FFFFFF" stroke-opacity="0.07"/>
-    <circle cx="660" cy="201" r="3" fill="#F97316"/>
-    <text x="673" y="206" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#F8FAFC">codekoll</text>
-    <text x="673" y="224" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#AEB9CC">static analysis for silent bugs</text>
-    <circle cx="660" cy="251" r="3" fill="#F97316"/>
-    <text x="673" y="256" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#F8FAFC">async-test-lib</text>
-    <text x="673" y="274" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#AEB9CC">forces concurrency bugs to fire</text>
-    <circle cx="660" cy="301" r="3" fill="#F97316"/>
-    <text x="673" y="306" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#F8FAFC">codekarta</text>
-    <text x="673" y="324" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#AEB9CC">maps what was actually built</text>
+    <rect x="355" y="136" width="290" height="212" rx="10" fill="#060B16" fill-opacity="0.7" stroke="#FFFFFF" stroke-opacity="0.07"/>
+    <text x="375" y="166" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="700" fill="#F97316" letter-spacing="1.5">WHILE IT WRITES</text>
+    <path d="M375 178h250" stroke="#FFFFFF" stroke-opacity="0.07"/>
+    <circle cx="380" cy="201" r="3" fill="#F97316"/>
+    <text x="393" y="206" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#F8FAFC">vibetags</text>
+    <text x="393" y="224" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#AEB9CC">fences off code it must not touch</text>
+    <circle cx="380" cy="251" r="3" fill="#F97316"/>
+    <text x="393" y="256" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#F8FAFC">axiom</text>
+    <text x="393" y="274" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#AEB9CC">shows what a change just broke</text>
+    <circle cx="380" cy="301" r="3" fill="#F97316"/>
+    <text x="393" y="306" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#F8FAFC">ghost-mcp</text>
+    <text x="393" y="324" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#AEB9CC">gives it hands on the desktop</text>
+    <path d="M810 118V136" stroke="#F97316" stroke-opacity="0.45" stroke-width="1.5" stroke-dasharray="3 4"/>
+    <circle cx="810" cy="104" r="14" fill="#080D19" stroke="url(#acpipe)" stroke-width="2"/>
+    <text x="810" y="108.5" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="13" font-weight="700" fill="#FBBF24" text-anchor="middle">3</text>
+    <rect x="665" y="136" width="290" height="212" rx="10" fill="#060B16" fill-opacity="0.7" stroke="#FFFFFF" stroke-opacity="0.07"/>
+    <text x="685" y="166" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="700" fill="#F97316" letter-spacing="1.5">BEFORE IT SHIPS</text>
+    <path d="M685 178h250" stroke="#FFFFFF" stroke-opacity="0.07"/>
+    <circle cx="690" cy="201" r="3" fill="#F97316"/>
+    <text x="703" y="206" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#F8FAFC">codekoll</text>
+    <text x="703" y="224" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#AEB9CC">static analysis for silent bugs</text>
+    <circle cx="690" cy="251" r="3" fill="#F97316"/>
+    <text x="703" y="256" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#F8FAFC">async-test-lib</text>
+    <text x="703" y="274" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#AEB9CC">forces concurrency bugs to fire</text>
+    <circle cx="690" cy="301" r="3" fill="#F97316"/>
+    <text x="703" y="306" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#F8FAFC">codekarta</text>
+    <text x="703" y="324" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#AEB9CC">maps what was actually built</text>
     <rect x="0.5" y="0.5" width="999" height="371" rx="11.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.09"/>
   </g>
 </svg>

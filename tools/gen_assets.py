@@ -239,10 +239,10 @@ def pipeline():
     w, h = 1000, 372
     uid = "pipe"
     rail_y, x0, x1 = 104, 70, 930
-    centers = [230, 500, 770]
+    centers = [190, 500, 810]
     out = [
-        text(40, 44, "HOW THE PROJECTS FIT TOGETHER", 12.5, ORANGE, 600, spacing=3),
-        text(960, 44, "one pipeline, agent to production", 12.5, DIM, anchor="end"),
+        text(40, 44, "FROM AGENT TO PRODUCTION", 12.5, ORANGE, 600, spacing=3),
+        text(960, 44, "8 projects, 3 checkpoints", 12.5, DIM, anchor="end"),
         # rects, not a stroked line: a horizontal path has a zero-height bounding box, and a
         # gradient or filter resolved against that box paints nothing at all
         f'    <rect x="{x0}" y="{rail_y - 3}" width="{x1 - x0}" height="6" rx="3" fill="{ORANGE}" fill-opacity="0.3" filter="url(#soft{uid})"/>',
@@ -258,14 +258,14 @@ def pipeline():
         out.append(f'    <circle cx="{x}" cy="{rail_y}" r="7" fill="{INK}" stroke="{ORANGE}" stroke-width="2"/>')
         out.append(text(lx, rail_y - 18, label, 12, TEXT, family=MONO, anchor=anchor))
     for i, (cx, (stage, rows)) in enumerate(zip(centers, PIPELINE), start=1):
-        left = cx - 135
+        left = cx - 145
         out += [
             f'    <path d="M{cx} {rail_y + 14}V136" stroke="{ORANGE}" stroke-opacity="0.45" stroke-width="1.5" stroke-dasharray="3 4"/>',
             f'    <circle cx="{cx}" cy="{rail_y}" r="14" fill="{INK}" stroke="url(#ac{uid})" stroke-width="2"/>',
             text(cx, rail_y + 4.5, str(i), 13, AMBER, 700, family=MONO, anchor="middle"),
-            f'    <rect x="{left}" y="136" width="270" height="212" rx="10" fill="{PANEL}" fill-opacity="0.7" stroke="#FFFFFF" stroke-opacity="0.07"/>',
+            f'    <rect x="{left}" y="136" width="290" height="212" rx="10" fill="{PANEL}" fill-opacity="0.7" stroke="#FFFFFF" stroke-opacity="0.07"/>',
             text(left + 20, 166, stage, 11.5, ORANGE, 700, family=MONO, spacing=1.5),
-            f'    <path d="M{left + 20} 178h230" stroke="#FFFFFF" stroke-opacity="0.07"/>',
+            f'    <path d="M{left + 20} 178h250" stroke="#FFFFFF" stroke-opacity="0.07"/>',
         ]
         for r, (repo, role) in enumerate(rows):
             y = 206 + r * 50
