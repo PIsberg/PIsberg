@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-label="Peter Isberg. Software developer and author. Guardrails for the machines that write the code. Gothenburg, Sweden.">
+  <title>Peter Isberg - software developer and author</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080D19"/>
+      <stop offset="100%" stop-color="#111B2E"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F97316"/>
+      <stop offset="100%" stop-color="#FBBF24"/>
+    </linearGradient>
+    <linearGradient id="nameFill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FED7AA"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F97316" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#F97316" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cool" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <!-- the right-hand artwork fades in from the left so it never crowds the text -->
+    <linearGradient id="fadeIn" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="35%" stop-color="#FFFFFF" stop-opacity="1"/>
+    </linearGradient>
+    <mask id="artMask">
+      <rect x="500" y="0" width="500" height="300" fill="url(#fadeIn)"/>
+    </mask>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <clipPath id="card">
+      <rect width="1000" height="300" rx="14"/>
+    </clipPath>
+    <path id="guarded" d="M690 84L738 160L846 156L946 178"/>
+  </defs>
+  <style>
+    @media (prefers-reduced-motion: reduce) { .motion { display: none; } }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="1000" height="300" fill="url(#bg)"/>
+    <circle cx="120" cy="-20" r="320" fill="url(#cool)"/>
+
+    <g mask="url(#artMask)">
+      <rect x="500" width="500" height="300" fill="url(#grid)"/>
+      <circle cx="846" cy="156" r="135" fill="url(#halo)"/>
+
+      <!-- dependency graph: grey edges are ordinary code, the orange path is the guarded one -->
+      <path d="M690 84L790 58L892 96M790 58L846 156M738 160L684 228M738 160L792 240L902 246L846 156M892 96L946 178M690 84L626 138L684 228M902 246L946 178" fill="none" stroke="#5B6B86" stroke-opacity="0.55" stroke-width="1.25"/>
+
+      <use href="#guarded" fill="none" stroke="#F97316" stroke-width="6" stroke-opacity="0.35" stroke-linecap="round" stroke-linejoin="round" filter="url(#soft)"/>
+      <use href="#guarded" fill="none" stroke="url(#accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <!-- a change travelling from the agent through the guardrail to production;
+           both pulses rest invisible so a frozen first frame is still clean -->
+      <circle class="motion" r="4" fill="#FFF7ED" opacity="0">
+        <animateMotion dur="4s" repeatCount="indefinite" calcMode="linear"><mpath href="#guarded"/></animateMotion>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.9;1" dur="4s" repeatCount="indefinite"/>
+      </circle>
+      <circle class="motion" r="3" fill="#FBBF24" opacity="0">
+        <animateMotion dur="4s" begin="2s" repeatCount="indefinite" calcMode="linear"><mpath href="#guarded"/></animateMotion>
+        <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.08;0.9;1" dur="4s" begin="2s" repeatCount="indefinite"/>
+      </circle>
+
+      <g fill="#0B1220" stroke="#7C8BA5" stroke-width="1.5">
+        <circle cx="790" cy="58" r="5"/>
+        <circle cx="892" cy="96" r="5"/>
+        <circle cx="684" cy="228" r="5"/>
+        <circle cx="792" cy="240" r="5"/>
+        <circle cx="902" cy="246" r="5"/>
+        <circle cx="626" cy="138" r="4"/>
+      </g>
+      <g fill="#0B1220" stroke="#F97316" stroke-width="2">
+        <circle cx="690" cy="84" r="6.5"/>
+        <circle cx="738" cy="160" r="6"/>
+        <circle cx="946" cy="178" r="6.5"/>
+      </g>
+
+      <circle class="motion" cx="846" cy="156" r="16" fill="none" stroke="#F97316" stroke-width="1.5" opacity="0">
+        <animate attributeName="r" values="16;40" dur="4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.7;0" dur="4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="846" cy="156" r="20" fill="#0B1220" stroke="url(#accent)" stroke-width="2"/>
+      <path d="M846 144l10 4v7c0 6.5-4.2 11-10 13c-5.8-2-10-6.5-10-13v-7z" fill="url(#accent)"/>
+      <path d="M841 156.5l3.5 3.5l6.5-7" fill="none" stroke="#0B1220" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <g font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11.5">
+        <text x="690" y="66" text-anchor="middle" fill="#8A99B4">agent</text>
+        <rect x="806" y="185" width="80" height="19" rx="9.5" fill="#0B1220" fill-opacity="0.92" stroke="#F97316" stroke-opacity="0.4"/>
+        <text x="846" y="198.5" text-anchor="middle" fill="#FBBF24">@AILocked</text>
+        <text x="946" y="204" text-anchor="middle" fill="#8A99B4">prod</text>
+      </g>
+    </g>
+
+    <rect x="0" y="0" width="6" height="300" fill="url(#accent)"/>
+
+    <g font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+      <text x="64" y="88" font-size="14" font-weight="600" letter-spacing="3" fill="#F97316">SOFTWARE DEVELOPER  /  AUTHOR</text>
+      <text x="62" y="154" font-size="60" font-weight="700" letter-spacing="-1" fill="url(#nameFill)">Peter Isberg</text>
+      <text x="64" y="198" font-size="20" fill="#CBD5E1">Guardrails for the machines that write the code.</text>
+      <rect x="64" y="222" width="44" height="3" rx="1.5" fill="url(#accent)"/>
+      <text x="64" y="256" font-size="14" fill="#8A99B4">Gothenburg, Sweden   ·   Java   ·   AI guardrails   ·   Static analysis</text>
+    </g>
+
+    <rect x="0.5" y="0.5" width="999" height="299" rx="13.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  </g>
+</svg>

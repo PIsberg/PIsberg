@@ -1,163 +1,91 @@
-<div align="center">
-
-<img src="assets/hud-header.svg" alt="T-800 heads-up display. PETER ISBERG. Guardrails for the machines that write the code. Power cell: Java 26. Location: Gothenburg, SE. Directive: no fate but what we compile." />
-
-<b>Developer by profession. Vibecoding after hours.</b>
-
-<p>
-<a href="http://www.deversity.se"><img src="https://img.shields.io/badge/deversity.se-0D0B09?style=for-the-badge&logo=firefoxbrowser&logoColor=FF6B1A" alt="Website" /></a>
-<a href="mailto:isberg.peter@gmail.com"><img src="https://img.shields.io/badge/Email-0D0B09?style=for-the-badge&logo=maildotru&logoColor=FF6B1A" alt="Email" /></a>
-<a href="https://github.com/PIsberg?tab=followers"><img src="https://img.shields.io/github/followers/PIsberg?style=for-the-badge&logo=github&logoColor=FF6B1A&color=0D0B09&labelColor=0D0B09" alt="Followers" /></a>
-<img src="https://komarev.com/ghpvc/?username=PIsberg&style=for-the-badge&color=B7410E&label=SCANS" alt="Profile views" />
-</p>
-
-</div>
-
-<div align="center">
-
-### `>> FIELD_MANUAL`
-
-<a href="https://www.amazon.com/Vibe-Coding-Architecture-Scale-AI-assisted-ebook/dp/B0HF3MLBB8">
-<img src="assets/book-cover.jpg" alt="Cover of Vibe Architecture, the book on designing, scaling, and guardrailing large-scale systems in the age of AI orchestration" width="380" />
-</a>
-
-**Vibe coding gives you speed. Vibe Architecture gives you scale.**
-
-*When syntax is free, structure is your only asset. The book on designing, scaling,*
-*and guardrailing large-scale systems in the age of AI orchestration.*
-
-<a href="https://www.amazon.com/Vibe-Coding-Architecture-Scale-AI-assisted-ebook/dp/B0HF3MLBB8"><img src="https://img.shields.io/badge/GET_IT_ON_AMAZON-0D0B09?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0ZGNkIxQSI+PHBhdGggZD0iTTYgMmEyIDIgMCAwIDAtMiAydjE2YTIgMiAwIDAgMCAyIDJoMTR2LTJINmExIDEgMCAwIDEgMC0yaDE0VjJINnptMiAzaDl2Mkg4VjV6Ii8+PC9zdmc+" alt="Buy Vibe Architecture on Amazon" /></a>
-
-</div>
-
-<img src="assets/divider.svg" alt="" />
-
-### `>> MISSION_PARAMETERS`
-
-- **`ACTIVE`** Building **[vibetags](https://github.com/PIsberg/vibetags)**, Java annotations that tell Claude, Cursor and Codex which code they are not allowed to touch
-- **`LAB`** Making concurrency bugs reproducible instead of lucky with **[async-test-lib](https://github.com/PIsberg/async-test-lib)**
-- **`SHIELD`** Running a local **[prompt injection firewall](https://github.com/PIsberg/llm-fw)** between my tools and every LLM API
-- **`UPLINK`** Ask me about Java, AI guardrails, static analysis, MCP servers, and why a green test suite is not proof
-- **`COMMS`** Reach me at [isberg.peter@gmail.com](mailto:isberg.peter@gmail.com) or [deversity.se](http://www.deversity.se)
-
-<img src="assets/divider.svg" alt="" />
-
-### `>> WEAPONS_SYSTEMS`
-
-<table>
-<tr>
-<td align="right"><code>PRIMARY</code></td>
-<td>
-<img src="https://img.shields.io/badge/Java-0D0B09?style=for-the-badge&logo=openjdk&logoColor=FF6B1A" alt="Java" />
-<img src="https://img.shields.io/badge/Spring_Boot-0D0B09?style=for-the-badge&logo=springboot&logoColor=FF6B1A" alt="Spring Boot" />
-<img src="https://img.shields.io/badge/Gradle-0D0B09?style=for-the-badge&logo=gradle&logoColor=FF6B1A" alt="Gradle" />
-<img src="https://img.shields.io/badge/Maven-0D0B09?style=for-the-badge&logo=apachemaven&logoColor=FF6B1A" alt="Maven" />
-</td>
-</tr>
-<tr>
-<td align="right"><code>SIDEARMS</code></td>
-<td>
-<img src="https://img.shields.io/badge/Rust-0D0B09?style=for-the-badge&logo=rust&logoColor=FF6B1A" alt="Rust" />
-<img src="https://img.shields.io/badge/TypeScript-0D0B09?style=for-the-badge&logo=typescript&logoColor=FF6B1A" alt="TypeScript" />
-<img src="https://img.shields.io/badge/Go-0D0B09?style=for-the-badge&logo=go&logoColor=FF6B1A" alt="Go" />
-<img src="https://img.shields.io/badge/Python-0D0B09?style=for-the-badge&logo=python&logoColor=FF6B1A" alt="Python" />
-</td>
-</tr>
-<tr>
-<td align="right"><code>SUPPORT</code></td>
-<td>
-<img src="https://img.shields.io/badge/Docker-0D0B09?style=for-the-badge&logo=docker&logoColor=FF6B1A" alt="Docker" />
-<img src="https://img.shields.io/badge/GitHub_Actions-0D0B09?style=for-the-badge&logo=githubactions&logoColor=FF6B1A" alt="GitHub Actions" />
-<img src="https://img.shields.io/badge/Claude-0D0B09?style=for-the-badge&logo=anthropic&logoColor=FF6B1A" alt="Claude" />
-<img src="https://img.shields.io/badge/MCP-0D0B09?style=for-the-badge&logo=modelcontextprotocol&logoColor=FF6B1A" alt="Model Context Protocol" />
-<img src="https://img.shields.io/badge/Linux-0D0B09?style=for-the-badge&logo=linux&logoColor=FF6B1A" alt="Linux" />
-<img src="https://img.shields.io/badge/IntelliJ_IDEA-0D0B09?style=for-the-badge&logo=intellijidea&logoColor=FF6B1A" alt="IntelliJ IDEA" />
-</td>
-</tr>
-</table>
-
-<img src="assets/divider.svg" alt="" />
-
-### `>> PRIMARY_TARGETS`
-
-<table>
-<tr><th align="left">Repo</th><th align="left">Stars</th><th align="left">What it does</th></tr>
-<tr>
-<td><a href="https://github.com/PIsberg/vibetags"><b>vibetags</b></a></td>
-<td><img src="https://img.shields.io/github/stars/PIsberg/vibetags?style=flat-square&label=%20&logo=github&logoColor=FF6B1A&color=0D0B09&labelColor=0D0B09" alt="stars" /></td>
-<td>Java annotations as AI guardrails. Mark the code an agent must not rewrite, and it stops rewriting it.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/PIsberg/async-test-lib"><b>async-test-lib</b></a></td>
-<td><img src="https://img.shields.io/github/stars/PIsberg/async-test-lib?style=flat-square&label=%20&logo=github&logoColor=FF6B1A&color=0D0B09&labelColor=0D0B09" alt="stars" /></td>
-<td>Forces concurrency bugs to happen using synchronized barriers, then names the one that fired.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/PIsberg/llm-fw"><b>llm-fw</b></a></td>
-<td><img src="https://img.shields.io/github/stars/PIsberg/llm-fw?style=flat-square&label=%20&logo=github&logoColor=FF6B1A&color=0D0B09&labelColor=0D0B09" alt="stars" /></td>
-<td>Local prompt injection firewall. Malicious prompts are blocked and logged, clean ones pass through.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/PIsberg/skill3"><b>skill3</b></a></td>
-<td><img src="https://img.shields.io/github/stars/PIsberg/skill3?style=flat-square&label=%20&logo=github&logoColor=FF6B1A&color=0D0B09&labelColor=0D0B09" alt="stars" /></td>
-<td>Relearns a technical skill for an agent, anchored to a target model cutoff, and vets the result.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/PIsberg/codekoll"><b>codekoll</b></a></td>
-<td><img src="https://img.shields.io/github/stars/PIsberg/codekoll?style=flat-square&label=%20&logo=github&logoColor=FF6B1A&color=0D0B09&labelColor=0D0B09" alt="stars" /></td>
-<td>Static analyzer for Java that finds the bugs which compile perfectly and detonate in production.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/PIsberg/codekarta"><b>codekarta</b></a></td>
-<td><img src="https://img.shields.io/github/stars/PIsberg/codekarta?style=flat-square&label=%20&logo=github&logoColor=FF6B1A&color=0D0B09&labelColor=0D0B09" alt="stars" /></td>
-<td>Parses Java source and emits SVG maps: call graphs, exception flow, state machines.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/PIsberg/axiom"><b>axiom</b></a></td>
-<td><img src="https://img.shields.io/github/stars/PIsberg/axiom?style=flat-square&label=%20&logo=github&logoColor=FF6B1A&color=0D0B09&labelColor=0D0B09" alt="stars" /></td>
-<td>The codebase as a live queryable graph, so an agent can see what it just broke.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/PIsberg/blindbean"><b>blindbean</b></a></td>
-<td><img src="https://img.shields.io/github/stars/PIsberg/blindbean?style=flat-square&label=%20&logo=github&logoColor=FF6B1A&color=0D0B09&labelColor=0D0B09" alt="stars" /></td>
-<td>Homomorphic encryption hidden behind ordinary Java objects and annotations.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/PIsberg/ghost-mcp"><b>ghost-mcp</b></a></td>
-<td><img src="https://img.shields.io/github/stars/PIsberg/ghost-mcp?style=flat-square&label=%20&logo=github&logoColor=FF6B1A&color=0D0B09&labelColor=0D0B09" alt="stars" /></td>
-<td>MCP server that exposes OS level UI automation to AI clients.</td>
-</tr>
-</table>
-
-<img src="assets/divider.svg" alt="" />
-
-### `>> COMBAT_TELEMETRY`
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=PIsberg&background=0D0B09&border=3D2A18&stroke=3D2A18&ring=FF6B1A&fire=FF2A1A&currStreakNum=FFF5E6&sideNums=D9D2C7&currStreakLabel=FF6B1A&sideLabels=D9D2C7&dates=8A8177&disable_animations=true" alt="Commit streak" />
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=PIsberg&theme=gruvbox" alt="Languages by repo" height="200" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=PIsberg&theme=gruvbox" alt="Languages by commit" height="200" />
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=PIsberg&theme=gruvbox" alt="Profile stats" height="200" />
-
-</div>
-
 <!--
-  github-readme-stats cards in the same fire palette. The public instance at
-  github-readme-stats.vercel.app returned DEPLOYMENT_PAUSED when this README was written,
-  so they are parked here. Self-host the fork on Vercel, replace HOST below, and uncomment.
-
-  <img src="https://HOST/api?username=PIsberg&show_icons=true&rank_icon=github&include_all_commits=true&bg_color=0D0B09&title_color=FF6B1A&text_color=D9D2C7&icon_color=FF2A1A&border_color=3D2A18" height="170" />
-  <img src="https://HOST/api/top-langs/?username=PIsberg&layout=compact&langs_count=8&bg_color=0D0B09&title_color=FF6B1A&text_color=D9D2C7&icon_color=FF2A1A&border_color=3D2A18" height="170" />
-  <img src="https://HOST/api/pin/?username=PIsberg&repo=vibetags&bg_color=0D0B09&title_color=FF6B1A&text_color=D9D2C7&icon_color=FF2A1A&border_color=3D2A18" />
+  Every image under assets/cards and assets/ui is generated: edit the tables in
+  tools/gen_assets.py and run `python tools/gen_assets.py`. Only assets/banner.svg is hand-drawn.
 -->
 
 <div align="center">
 
-*Come with me if you want to ship.*
+<img src="assets/banner.svg" alt="Peter Isberg. Software developer and author. Guardrails for the machines that write the code. Gothenburg, Sweden." width="100%" />
 
-<img src="assets/molten-footer.svg" alt="A thumbs-up slowly sinking into molten steel. I will be back." />
+<p>
+<a href="https://www.amazon.com/Vibe-Coding-Architecture-Scale-AI-assisted-ebook/dp/B0HF3MLBB8"><img src="assets/ui/btn-book.svg" alt="Read the book" width="190" /></a>
+<a href="http://www.deversity.se"><img src="assets/ui/btn-site.svg" alt="deversity.se" width="190" /></a>
+<a href="mailto:isberg.peter@gmail.com"><img src="assets/ui/btn-email.svg" alt="Email me" width="190" /></a>
+</p>
 
+</div>
+
+<img src="assets/ui/section-01.svg" alt="About" width="100%" />
+
+I am a software developer in Gothenburg, Sweden, working mostly in Java. My open source work
+keeps returning to one question: when AI agents write most of the code, what keeps the system
+correct?
+
+My answers so far are annotations that fence off the code an agent must not touch, tests that
+force concurrency bugs to reproduce on demand, a local firewall against prompt injection, and
+a book about the architecture that holds it all together.
+
+Ask me about Java, AI guardrails, static analysis, MCP servers, and why a green test suite is
+not proof.
+
+<img src="assets/ui/section-02.svg" alt="The book" width="100%" />
+
+<p align="center">
+<a href="https://www.amazon.com/Vibe-Coding-Architecture-Scale-AI-assisted-ebook/dp/B0HF3MLBB8"><img src="assets/book-cover.jpg" alt="Cover of Vibe Coding Architecture at Scale" width="24%" /></a>
+<a href="https://www.amazon.com/Vibe-Coding-Architecture-Scale-AI-assisted-ebook/dp/B0HF3MLBB8"><img src="assets/ui/book-panel.svg" alt="Vibe Coding Architecture at Scale. Vibe coding gives you speed. Vibe Architecture gives you scale. When syntax is free, structure is your only asset. Get it on Amazon." width="74%" /></a>
+</p>
+
+<img src="assets/ui/section-03.svg" alt="How it fits together" width="100%" />
+
+Eight of these projects are stations on one line: the path a change takes from an AI agent to
+production.
+
+<img src="assets/ui/pipeline.svg" alt="Pipeline from AI agent to production. Before it writes: skill3 teaches the agent current skills, llm-fw filters prompts before the model. While it writes: vibetags fences off code it must not touch, axiom shows what a change just broke, ghost-mcp gives it hands on the desktop. Before it ships: codekoll runs static analysis for silent bugs, async-test-lib forces concurrency bugs to fire, codekarta maps what was actually built." width="100%" />
+
+<img src="assets/ui/section-04.svg" alt="Open source" width="100%" />
+
+### Guardrails for AI agents
+
+<p align="center">
+<a href="https://github.com/PIsberg/vibetags"><img src="assets/cards/vibetags.svg" alt="vibetags: Java annotations as AI guardrails. Mark the code an agent must not rewrite, and it stops rewriting it. Works with Claude, Cursor and Codex." width="100%" /></a>
+<a href="https://github.com/PIsberg/llm-fw"><img src="assets/cards/llm-fw.svg" alt="llm-fw: Local prompt injection firewall. Malicious prompts are blocked and logged, clean ones pass through." width="49.5%" /></a>
+<a href="https://github.com/PIsberg/axiom"><img src="assets/cards/axiom.svg" alt="axiom: The codebase as a live queryable graph, so an agent can see what it just broke." width="49.5%" /></a>
+<a href="https://github.com/PIsberg/skill3"><img src="assets/cards/skill3.svg" alt="skill3: Relearns a technical skill for an agent, anchored to a target model cutoff, and vets the result." width="49.5%" /></a>
+<a href="https://github.com/PIsberg/ghost-mcp"><img src="assets/cards/ghost-mcp.svg" alt="ghost-mcp: MCP server that exposes OS level UI automation to AI clients." width="49.5%" /></a>
+</p>
+
+### Java correctness and analysis
+
+<p align="center">
+<a href="https://github.com/PIsberg/async-test-lib"><img src="assets/cards/async-test-lib.svg" alt="async-test-lib: Forces concurrency bugs to happen using synchronized barriers, then names the one that fired." width="49.5%" /></a>
+<a href="https://github.com/PIsberg/codekoll"><img src="assets/cards/codekoll.svg" alt="codekoll: Static analyzer for Java that finds the bugs which compile perfectly and detonate in production." width="49.5%" /></a>
+<a href="https://github.com/PIsberg/codekarta"><img src="assets/cards/codekarta.svg" alt="codekarta: Parses Java source and emits SVG maps: call graphs, exception flow, state machines." width="49.5%" /></a>
+<a href="https://github.com/PIsberg/blindbean"><img src="assets/cards/blindbean.svg" alt="blindbean: Homomorphic encryption hidden behind ordinary Java objects and annotations." width="49.5%" /></a>
+</p>
+
+<img src="assets/ui/section-05.svg" alt="Toolbox" width="100%" />
+
+<img src="assets/ui/toolbox.svg" alt="Primary: Java, Spring Boot, Gradle, Maven. Also fluent: Rust, TypeScript, Go, Python. Platform and AI: Docker, GitHub Actions, Claude, MCP, Linux, IntelliJ IDEA." width="100%" />
+
+<img src="assets/ui/section-06.svg" alt="Activity" width="100%" />
+
+<div align="center">
+
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=PIsberg&theme=github_dark" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=PIsberg&theme=github" alt="GitHub contribution stats" height="190" />
+</picture>
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=PIsberg&theme=github_dark" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=PIsberg&theme=github" alt="Repositories per language" height="190" />
+</picture>
+
+</div>
+
+<br />
+
+<a href="mailto:isberg.peter@gmail.com"><img src="assets/ui/footer.svg" alt="Building with AI agents and want it to stay correct? Get in touch: isberg.peter@gmail.com" width="100%" /></a>
+
+<div align="center">
+<sub><a href="mailto:isberg.peter@gmail.com">isberg.peter@gmail.com</a> · <a href="http://www.deversity.se">deversity.se</a></sub>
 </div>

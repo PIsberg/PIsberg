@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="174" viewBox="0 0 1000 174" role="img" aria-label="Toolbox. Primary: Java, Spring Boot, Gradle, Maven. Also Fluent: Rust, TypeScript, Go, Python. Platform + Ai: Docker, GitHub Actions, Claude, MCP, Linux, IntelliJ IDEA.">
+  <title>Toolbox. Primary: Java, Spring Boot, Gradle, Maven. Also Fluent: Rust, TypeScript, Go, Python. Platform + Ai: Docker, GitHub Actions, Claude, MCP, Linux, IntelliJ IDEA.</title>
+  <defs>
+    <linearGradient id="bgtools" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080D19"/>
+      <stop offset="100%" stop-color="#111B2E"/>
+    </linearGradient>
+    <linearGradient id="actools" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F97316"/>
+      <stop offset="100%" stop-color="#FBBF24"/>
+    </linearGradient>
+    <linearGradient id="toptools" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F97316" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#FBBF24" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fadetools" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F97316" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#F97316" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glowtools" cx="0%" cy="0%" r="75%">
+      <stop offset="0%" stop-color="#F97316" stop-opacity="0.13"/>
+      <stop offset="100%" stop-color="#F97316" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softtools" x="-20%" y="-400%" width="140%" height="900%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <clipPath id="cliptools"><rect width="1000" height="174" rx="12"/></clipPath>
+  </defs>
+  <style>
+    @media (prefers-reduced-motion: reduce) { .motion { display: none; } }
+  </style>
+  <g clip-path="url(#cliptools)">
+    <rect width="1000" height="174" fill="url(#bgtools)"/>
+
+    <rect width="1000" height="2" fill="url(#toptools)"/>
+    <text x="28" y="43" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="700" fill="#F97316" letter-spacing="1.5">PRIMARY</text>
+    <rect x="190" y="22" width="60" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <text x="220.0" y="43" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#F8FAFC" text-anchor="middle">Java</text>
+    <rect x="260" y="22" width="113" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <text x="316.5" y="43" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#F8FAFC" text-anchor="middle">Spring Boot</text>
+    <rect x="383" y="22" width="75" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <text x="420.5" y="43" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#F8FAFC" text-anchor="middle">Gradle</text>
+    <rect x="468" y="22" width="68" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <text x="502.0" y="43" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#F8FAFC" text-anchor="middle">Maven</text>
+    <text x="28" y="89" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="700" fill="#F97316" letter-spacing="1.5">ALSO FLUENT</text>
+    <rect x="190" y="68" width="60" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <text x="220.0" y="89" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#CBD5E1" text-anchor="middle">Rust</text>
+    <rect x="260" y="68" width="106" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <text x="313.0" y="89" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#CBD5E1" text-anchor="middle">TypeScript</text>
+    <rect x="376" y="68" width="45" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <text x="398.5" y="89" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#CBD5E1" text-anchor="middle">Go</text>
+    <rect x="431" y="68" width="75" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <text x="468.5" y="89" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#CBD5E1" text-anchor="middle">Python</text>
+    <text x="28" y="135" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="700" fill="#F97316" letter-spacing="1.5">PLATFORM + AI</text>
+    <rect x="190" y="114" width="75" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <text x="227.5" y="135" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#CBD5E1" text-anchor="middle">Docker</text>
+    <rect x="275" y="114" width="136" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <text x="343.0" y="135" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#CBD5E1" text-anchor="middle">GitHub Actions</text>
+    <rect x="421" y="114" width="75" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <text x="458.5" y="135" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#CBD5E1" text-anchor="middle">Claude</text>
+    <rect x="506" y="114" width="52" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <text x="532.0" y="135" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#CBD5E1" text-anchor="middle">MCP</text>
+    <rect x="568" y="114" width="68" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <text x="602.0" y="135" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#CBD5E1" text-anchor="middle">Linux</text>
+    <rect x="646" y="114" width="128" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <text x="710.0" y="135" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#CBD5E1" text-anchor="middle">IntelliJ IDEA</text>
+    <rect x="0.5" y="0.5" width="999" height="173" rx="11.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.09"/>
+  </g>
+</svg>

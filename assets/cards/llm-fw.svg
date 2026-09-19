@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="490" height="176" viewBox="0 0 490 176" role="img" aria-label="llm-fw: Local prompt injection firewall. Malicious prompts are blocked and logged, clean ones pass through.">
+  <title>llm-fw: Local prompt injection firewall. Malicious prompts are blocked and logged, clean ones pass through.</title>
+  <defs>
+    <linearGradient id="bgllm-fw" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080D19"/>
+      <stop offset="100%" stop-color="#111B2E"/>
+    </linearGradient>
+    <linearGradient id="acllm-fw" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F97316"/>
+      <stop offset="100%" stop-color="#FBBF24"/>
+    </linearGradient>
+    <linearGradient id="topllm-fw" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F97316" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#FBBF24" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fadellm-fw" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F97316" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#F97316" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glowllm-fw" cx="0%" cy="0%" r="75%">
+      <stop offset="0%" stop-color="#F97316" stop-opacity="0.13"/>
+      <stop offset="100%" stop-color="#F97316" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softllm-fw" x="-20%" y="-400%" width="140%" height="900%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <clipPath id="clipllm-fw"><rect width="490" height="176" rx="12"/></clipPath>
+  </defs>
+  <style>
+    @media (prefers-reduced-motion: reduce) { .motion { display: none; } }
+  </style>
+  <g clip-path="url(#clipllm-fw)">
+    <rect width="490" height="176" fill="url(#bgllm-fw)"/>
+    <rect width="490" height="176" fill="url(#glowllm-fw)"/>
+    <rect width="490" height="2" fill="url(#topllm-fw)"/>
+    <rect x="24" y="24" width="40" height="40" rx="10" fill="#F97316" fill-opacity="0.1" stroke="#F97316" stroke-opacity="0.35"/>
+    <path transform="translate(32 32)" d="M3 5h18v14H3zM3 9.7h18M3 14.3h18M9 5v4.7M15 5v4.7M12 9.7v4.6M9 14.3V19M15 14.3V19" fill="none" stroke="url(#acllm-fw)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="78" y="36" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#7C8BA5">PIsberg /</text>
+    <text x="78" y="58" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#F8FAFC">llm-fw</text>
+    <text x="24" y="96" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#AEB9CC">Local prompt injection firewall. Malicious prompts are blocked</text>
+    <text x="24" y="116" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#AEB9CC">and logged, clean ones pass through.</text>
+    <circle cx="29" cy="152" r="5" fill="#3178C6"/>
+    <text x="41" y="156" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#CBD5E1">TypeScript</text>
+    <text x="466" y="156" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#F97316" text-anchor="end">View repository →</text>
+    <rect x="0.5" y="0.5" width="489" height="175" rx="11.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.09"/>
+  </g>
+</svg>
