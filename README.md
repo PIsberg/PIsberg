@@ -3,10 +3,10 @@
 <img src="assets/banner.svg" alt="Peter Isberg. Software developer and author. Guardrails for the machines that write the code. Gothenburg, Sweden." width="100%" />
 
 <p>
-<a href="http://www.deversity.se"><img src="https://img.shields.io/badge/deversity.se-111B2E?style=flat-square&logo=googlechrome&logoColor=F97316" alt="Website: deversity.se" height="26" /></a>
-<a href="mailto:isberg.peter@gmail.com"><img src="https://img.shields.io/badge/Email-111B2E?style=flat-square&logo=gmail&logoColor=F97316" alt="Email" height="26" /></a>
-<a href="https://www.amazon.com/Vibe-Coding-Architecture-Scale-AI-assisted-ebook/dp/B0HF3MLBB8"><img src="https://img.shields.io/badge/The_book-111B2E?style=flat-square&logo=bookstack&logoColor=F97316" alt="Vibe Architecture on Amazon" height="26" /></a>
-<a href="https://github.com/PIsberg?tab=followers"><img src="https://img.shields.io/github/followers/PIsberg?style=flat-square&logo=github&logoColor=F97316&label=Followers&color=111B2E&labelColor=111B2E" alt="GitHub followers" height="26" /></a>
+<a href="http://www.deversity.se"><img src="https://img.shields.io/badge/deversity.se-111B2E?style=for-the-badge&logo=googlechrome&logoColor=F97316" alt="Website: deversity.se" /></a>
+<a href="mailto:isberg.peter@gmail.com"><img src="https://img.shields.io/badge/Email-111B2E?style=for-the-badge&logo=gmail&logoColor=F97316" alt="Email" /></a>
+<a href="https://www.amazon.com/Vibe-Coding-Architecture-Scale-AI-assisted-ebook/dp/B0HF3MLBB8"><img src="https://img.shields.io/badge/The_book-111B2E?style=for-the-badge&logo=bookstack&logoColor=F97316" alt="Vibe Coding Architecture at Scale on Amazon" /></a>
+<a href="https://github.com/PIsberg?tab=followers"><img src="https://img.shields.io/github/followers/PIsberg?style=for-the-badge&logo=github&logoColor=F97316&label=Followers&color=111B2E&labelColor=111B2E" alt="GitHub followers" /></a>
 </p>
 
 </div>
@@ -29,18 +29,18 @@ not proof.
 <table>
 <tr>
 <td width="250" align="center">
-<a href="https://www.amazon.com/Vibe-Coding-Architecture-Scale-AI-assisted-ebook/dp/B0HF3MLBB8"><img src="assets/book-cover.jpg" alt="Cover of Vibe Architecture" width="220" /></a>
+<a href="https://www.amazon.com/Vibe-Coding-Architecture-Scale-AI-assisted-ebook/dp/B0HF3MLBB8"><img src="assets/book-cover.jpg" alt="Cover of Vibe Coding Architecture at Scale" width="220" /></a>
 </td>
 <td>
 
-### Vibe Architecture
+### Vibe Coding Architecture at Scale
 
 **Vibe coding gives you speed. Vibe Architecture gives you scale.**
 
 When syntax is free, structure is your only asset. This is the book on designing, scaling and
 guardrailing large-scale systems in the age of AI orchestration.
 
-<a href="https://www.amazon.com/Vibe-Coding-Architecture-Scale-AI-assisted-ebook/dp/B0HF3MLBB8"><img src="https://img.shields.io/badge/Get_it_on_Amazon-F97316?style=for-the-badge" alt="Get Vibe Architecture on Amazon" /></a>
+<a href="https://www.amazon.com/Vibe-Coding-Architecture-Scale-AI-assisted-ebook/dp/B0HF3MLBB8"><img src="https://img.shields.io/badge/Get_it_on_Amazon-F97316?style=for-the-badge" alt="Get Vibe Coding Architecture at Scale on Amazon" /></a>
 
 </td>
 </tr>
@@ -48,10 +48,9 @@ guardrailing large-scale systems in the age of AI orchestration.
 
 ## Open source
 
-### Guardrails for AI agents
-
 <table>
 <tr><th align="left" width="170">Project</th><th align="left">What it does</th><th align="left" width="80">Stars</th></tr>
+<tr><td colspan="3"><b>Guardrails for AI agents</b></td></tr>
 <tr>
 <td><a href="https://github.com/PIsberg/vibetags"><b>vibetags</b></a></td>
 <td>Java annotations as AI guardrails. Mark the code an agent must not rewrite, and it stops rewriting it.</td>
@@ -77,12 +76,7 @@ guardrailing large-scale systems in the age of AI orchestration.
 <td>MCP server that exposes OS level UI automation to AI clients.</td>
 <td><img src="https://img.shields.io/github/stars/PIsberg/ghost-mcp?style=flat-square&label=%20&logo=github&logoColor=F97316&color=111B2E&labelColor=111B2E" alt="ghost-mcp stars" /></td>
 </tr>
-</table>
-
-### Java correctness and analysis
-
-<table>
-<tr><th align="left" width="170">Project</th><th align="left">What it does</th><th align="left" width="80">Stars</th></tr>
+<tr><td colspan="3"><b>Java correctness and analysis</b></td></tr>
 <tr>
 <td><a href="https://github.com/PIsberg/async-test-lib"><b>async-test-lib</b></a></td>
 <td>Forces concurrency bugs to happen using synchronized barriers, then names the one that fired.</td>
