@@ -1,17 +1,21 @@
+<!--
+  Every image under assets/cards and assets/ui is generated: edit the tables in
+  tools/gen_assets.py and run `python tools/gen_assets.py`. Only assets/banner.svg is hand-drawn.
+-->
+
 <div align="center">
 
 <img src="assets/banner.svg" alt="Peter Isberg. Software developer and author. Guardrails for the machines that write the code. Gothenburg, Sweden." width="100%" />
 
 <p>
-<a href="http://www.deversity.se"><img src="https://img.shields.io/badge/deversity.se-111B2E?style=for-the-badge&logo=googlechrome&logoColor=F97316" alt="Website: deversity.se" /></a>
-<a href="mailto:isberg.peter@gmail.com"><img src="https://img.shields.io/badge/Email-111B2E?style=for-the-badge&logo=gmail&logoColor=F97316" alt="Email" /></a>
-<a href="https://www.amazon.com/Vibe-Coding-Architecture-Scale-AI-assisted-ebook/dp/B0HF3MLBB8"><img src="https://img.shields.io/badge/The_book-111B2E?style=for-the-badge&logo=bookstack&logoColor=F97316" alt="Vibe Coding Architecture at Scale on Amazon" /></a>
-<a href="https://github.com/PIsberg?tab=followers"><img src="https://img.shields.io/github/followers/PIsberg?style=for-the-badge&logo=github&logoColor=F97316&label=Followers&color=111B2E&labelColor=111B2E" alt="GitHub followers" /></a>
+<a href="https://www.amazon.com/Vibe-Coding-Architecture-Scale-AI-assisted-ebook/dp/B0HF3MLBB8"><img src="assets/ui/btn-book.svg" alt="Read the book" width="190" /></a>
+<a href="http://www.deversity.se"><img src="assets/ui/btn-site.svg" alt="deversity.se" width="190" /></a>
+<a href="mailto:isberg.peter@gmail.com"><img src="assets/ui/btn-email.svg" alt="Email me" width="190" /></a>
 </p>
 
 </div>
 
-## About
+<img src="assets/ui/section-01.svg" alt="About" width="100%" />
 
 I am a software developer in Gothenburg, Sweden, working mostly in Java. My open source work
 keeps returning to one question: when AI agents write most of the code, what keeps the system
@@ -24,29 +28,21 @@ a book about the architecture that holds it all together.
 Ask me about Java, AI guardrails, static analysis, MCP servers, and why a green test suite is
 not proof.
 
-## The book
+<img src="assets/ui/section-02.svg" alt="The book" width="100%" />
 
-<table>
-<tr>
-<td width="250" align="center">
-<a href="https://www.amazon.com/Vibe-Coding-Architecture-Scale-AI-assisted-ebook/dp/B0HF3MLBB8"><img src="assets/book-cover.jpg" alt="Cover of Vibe Coding Architecture at Scale" width="220" /></a>
-</td>
-<td>
+<p align="center">
+<a href="https://www.amazon.com/Vibe-Coding-Architecture-Scale-AI-assisted-ebook/dp/B0HF3MLBB8"><img src="assets/book-cover.jpg" alt="Cover of Vibe Coding Architecture at Scale" width="24%" /></a>
+<a href="https://www.amazon.com/Vibe-Coding-Architecture-Scale-AI-assisted-ebook/dp/B0HF3MLBB8"><img src="assets/ui/book-panel.svg" alt="Vibe Coding Architecture at Scale. Vibe coding gives you speed. Vibe Architecture gives you scale. When syntax is free, structure is your only asset. Get it on Amazon." width="74%" /></a>
+</p>
 
-### Vibe Coding Architecture at Scale
+<img src="assets/ui/section-03.svg" alt="How it fits together" width="100%" />
 
-**Vibe coding gives you speed. Vibe Architecture gives you scale.**
+Eight of these projects are stations on one line: the path a change takes from an AI agent to
+production.
 
-When syntax is free, structure is your only asset. This is the book on designing, scaling and
-guardrailing large-scale systems in the age of AI orchestration.
+<img src="assets/ui/pipeline.svg" alt="Pipeline from AI agent to production. Before it writes: skill3 teaches the agent current skills, llm-fw filters prompts before the model. While it writes: vibetags fences off code it must not touch, axiom shows what a change just broke, ghost-mcp gives it hands on the desktop. Before it ships: codekoll runs static analysis for silent bugs, async-test-lib forces concurrency bugs to fire, codekarta maps what was actually built." width="100%" />
 
-<a href="https://www.amazon.com/Vibe-Coding-Architecture-Scale-AI-assisted-ebook/dp/B0HF3MLBB8"><img src="https://img.shields.io/badge/Get_it_on_Amazon-F97316?style=for-the-badge" alt="Get Vibe Coding Architecture at Scale on Amazon" /></a>
-
-</td>
-</tr>
-</table>
-
-## Open source
+<img src="assets/ui/section-04.svg" alt="Open source" width="100%" />
 
 ### Guardrails for AI agents
 
@@ -67,41 +63,11 @@ guardrailing large-scale systems in the age of AI orchestration.
 <a href="https://github.com/PIsberg/blindbean"><img src="assets/cards/blindbean.svg" alt="blindbean: Homomorphic encryption hidden behind ordinary Java objects and annotations." width="49.5%" /></a>
 </p>
 
-## Toolbox
+<img src="assets/ui/section-05.svg" alt="Toolbox" width="100%" />
 
-<table>
-<tr>
-<td><b>Primary</b></td>
-<td>
-<img src="https://img.shields.io/badge/Java-111B2E?style=flat-square&logo=openjdk&logoColor=F97316" alt="Java" height="24" />
-<img src="https://img.shields.io/badge/Spring_Boot-111B2E?style=flat-square&logo=springboot&logoColor=F97316" alt="Spring Boot" height="24" />
-<img src="https://img.shields.io/badge/Gradle-111B2E?style=flat-square&logo=gradle&logoColor=F97316" alt="Gradle" height="24" />
-<img src="https://img.shields.io/badge/Maven-111B2E?style=flat-square&logo=apachemaven&logoColor=F97316" alt="Maven" height="24" />
-</td>
-</tr>
-<tr>
-<td><b>Also fluent</b></td>
-<td>
-<img src="https://img.shields.io/badge/Rust-111B2E?style=flat-square&logo=rust&logoColor=F97316" alt="Rust" height="24" />
-<img src="https://img.shields.io/badge/TypeScript-111B2E?style=flat-square&logo=typescript&logoColor=F97316" alt="TypeScript" height="24" />
-<img src="https://img.shields.io/badge/Go-111B2E?style=flat-square&logo=go&logoColor=F97316" alt="Go" height="24" />
-<img src="https://img.shields.io/badge/Python-111B2E?style=flat-square&logo=python&logoColor=F97316" alt="Python" height="24" />
-</td>
-</tr>
-<tr>
-<td><b>Platform and AI</b></td>
-<td>
-<img src="https://img.shields.io/badge/Docker-111B2E?style=flat-square&logo=docker&logoColor=F97316" alt="Docker" height="24" />
-<img src="https://img.shields.io/badge/GitHub_Actions-111B2E?style=flat-square&logo=githubactions&logoColor=F97316" alt="GitHub Actions" height="24" />
-<img src="https://img.shields.io/badge/Claude-111B2E?style=flat-square&logo=anthropic&logoColor=F97316" alt="Claude" height="24" />
-<img src="https://img.shields.io/badge/MCP-111B2E?style=flat-square&logo=modelcontextprotocol&logoColor=F97316" alt="Model Context Protocol" height="24" />
-<img src="https://img.shields.io/badge/Linux-111B2E?style=flat-square&logo=linux&logoColor=F97316" alt="Linux" height="24" />
-<img src="https://img.shields.io/badge/IntelliJ_IDEA-111B2E?style=flat-square&logo=intellijidea&logoColor=F97316" alt="IntelliJ IDEA" height="24" />
-</td>
-</tr>
-</table>
+<img src="assets/ui/toolbox.svg" alt="Primary: Java, Spring Boot, Gradle, Maven. Also fluent: Rust, TypeScript, Go, Python. Platform and AI: Docker, GitHub Actions, Claude, MCP, Linux, IntelliJ IDEA." width="100%" />
 
-## Activity
+<img src="assets/ui/section-06.svg" alt="Activity" width="100%" />
 
 <div align="center">
 
@@ -116,8 +82,8 @@ guardrailing large-scale systems in the age of AI orchestration.
 
 </div>
 
----
+<a href="mailto:isberg.peter@gmail.com"><img src="assets/ui/footer.svg" alt="Building with AI agents and want it to stay correct? Get in touch: isberg.peter@gmail.com" width="100%" /></a>
 
 <div align="center">
-<sub>Get in touch: <a href="mailto:isberg.peter@gmail.com">isberg.peter@gmail.com</a> · <a href="http://www.deversity.se">deversity.se</a></sub>
+<sub><a href="mailto:isberg.peter@gmail.com">isberg.peter@gmail.com</a> · <a href="http://www.deversity.se">deversity.se</a></sub>
 </div>
