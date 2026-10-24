@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="372" viewBox="0 0 1000 372" role="img" aria-label="How the projects fit together. Stage 1, before it writes: skill3 teaches the agent current skills, llm-fw filters prompts before the model. Stage 2, while it writes: vibetags fences off code it must not touch, axiom shows what a change just broke, ghost-mcp gives it hands on the desktop. Stage 3, before it ships: codekoll static analysis for silent bugs, async-test-lib forces concurrency bugs to fire, codekarta maps what was actually built.">
-  <title>How the projects fit together. Stage 1, before it writes: skill3 teaches the agent current skills, llm-fw filters prompts before the model. Stage 2, while it writes: vibetags fences off code it must not touch, axiom shows what a change just broke, ghost-mcp gives it hands on the desktop. Stage 3, before it ships: codekoll static analysis for silent bugs, async-test-lib forces concurrency bugs to fire, codekarta maps what was actually built.</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="372" viewBox="0 0 1000 372" role="img" aria-label="How the projects fit together. Stage 1, before it writes: skill3 teaches the agent current skills, llm-fw filters prompts before the model, speckit-agents audits the spec before any code. Stage 2, while it writes: vibetags fences off code it must not touch, axiom shows what a change just broke, ghost-mcp gives it hands on the desktop. Stage 3, before it ships: codekoll static analysis for silent bugs, async-test-lib forces concurrency bugs to fire, codekarta maps what was actually built.">
+  <title>How the projects fit together. Stage 1, before it writes: skill3 teaches the agent current skills, llm-fw filters prompts before the model, speckit-agents audits the spec before any code. Stage 2, while it writes: vibetags fences off code it must not touch, axiom shows what a change just broke, ghost-mcp gives it hands on the desktop. Stage 3, before it ships: codekoll static analysis for silent bugs, async-test-lib forces concurrency bugs to fire, codekarta maps what was actually built.</title>
   <defs>
     <linearGradient id="bgpipe" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#080D19"/>
@@ -34,7 +34,7 @@
     <rect width="1000" height="372" fill="url(#glowpipe)"/>
     <rect width="1000" height="2" fill="url(#toppipe)"/>
     <text x="40" y="44" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#F97316" letter-spacing="3">FROM AGENT TO PRODUCTION</text>
-    <text x="960" y="44" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#7C8BA5" text-anchor="end">8 projects, 3 checkpoints</text>
+    <text x="960" y="44" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#7C8BA5" text-anchor="end">9 projects, 3 checkpoints</text>
     <rect x="70" y="101" width="860" height="6" rx="3" fill="#F97316" fill-opacity="0.3" filter="url(#softpipe)"/>
     <rect x="70" y="103" width="860" height="2" rx="1" fill="url(#acpipe)"/>
     <circle class="motion" r="3.5" fill="#FFF7ED" opacity="0">
@@ -65,6 +65,9 @@
     <circle cx="70" cy="251" r="3" fill="#F97316"/>
     <text x="83" y="256" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#F8FAFC">llm-fw</text>
     <text x="83" y="274" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#AEB9CC">filters prompts before the model</text>
+    <circle cx="70" cy="301" r="3" fill="#F97316"/>
+    <text x="83" y="306" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#F8FAFC">speckit-agents</text>
+    <text x="83" y="324" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#AEB9CC">audits the spec before any code</text>
     <path d="M500 118V136" stroke="#F97316" stroke-opacity="0.45" stroke-width="1.5" stroke-dasharray="3 4"/>
     <circle cx="500" cy="104" r="14" fill="#080D19" stroke="url(#acpipe)" stroke-width="2"/>
     <text x="500" y="108.5" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="13" font-weight="700" fill="#FBBF24" text-anchor="middle">2</text>

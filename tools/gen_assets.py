@@ -30,7 +30,8 @@ ORANGE, AMBER = "#F97316", "#FBBF24"
 WHITE, TEXT, MUTED, DIM = "#F8FAFC", "#CBD5E1", "#AEB9CC", "#7C8BA5"
 
 # GitHub's own language colours, so the dot matches what the repo page shows.
-LANG_COLOR = {"Java": "#B07219", "TypeScript": "#3178C6", "Rust": "#DEA584", "Go": "#00ADD8"}
+LANG_COLOR = {"Java": "#B07219", "TypeScript": "#3178C6", "Rust": "#DEA584", "Go": "#00ADD8",
+              "JavaScript": "#F1E05A"}
 
 # Icons are drawn on a 24x24 grid, stroked, never filled.
 ICONS = {
@@ -43,6 +44,7 @@ ICONS = {
     "search": "M10.5 10.5m-6.5 0a6.5 6.5 0 1 0 13 0a6.5 6.5 0 1 0-13 0M15.5 15.5L21 21",
     "map": "M3 6l6-2l6 2l6-2v14l-6 2l-6-2l-6 2zM9 4v14M15 6v14",
     "lock": "M6 11h12v9H6zM8.5 11V8a3.5 3.5 0 0 1 7 0v3M12 14.5v2.5",
+    "clipboard": "M9 3.5h6v3H9zM7.5 5H5v16h14V5h-2.5M8.5 13.5l2.5 2.5l4.5-5",
 }
 
 # (repo, icon, language, card text)
@@ -55,6 +57,8 @@ PROJECTS = [
      "Relearns a technical skill for an agent, anchored to a target model cutoff, and vets the result."),
     ("ghost-mcp", "cursor", "Go",
      "MCP server that exposes OS level UI automation to AI clients."),
+    ("speckit-agents", "clipboard", "JavaScript",
+     "Claude Code subagents for Spec Kit. Hooks keep each in its lane, and no code is written until the spec passes audit."),
     ("async-test-lib", "barrier", "Java",
      "Forces concurrency bugs to happen using synchronized barriers, then names the one that fired."),
     ("codekoll", "search", "Java",
@@ -83,6 +87,7 @@ PIPELINE = [
     ("BEFORE IT WRITES", [
         ("skill3", "teaches the agent current skills"),
         ("llm-fw", "filters prompts before the model"),
+        ("speckit-agents", "audits the spec before any code"),
     ]),
     ("WHILE IT WRITES", [
         ("vibetags", "fences off code it must not touch"),
@@ -242,7 +247,7 @@ def pipeline():
     centers = [190, 500, 810]
     out = [
         text(40, 44, "FROM AGENT TO PRODUCTION", 12.5, ORANGE, 600, spacing=3),
-        text(960, 44, "8 projects, 3 checkpoints", 12.5, DIM, anchor="end"),
+        text(960, 44, f"{sum(len(rows) for _, rows in PIPELINE)} projects, {len(PIPELINE)} checkpoints", 12.5, DIM, anchor="end"),
         # rects, not a stroked line: a horizontal path has a zero-height bounding box, and a
         # gradient or filter resolved against that box paints nothing at all
         f'    <rect x="{x0}" y="{rail_y - 3}" width="{x1 - x0}" height="6" rx="3" fill="{ORANGE}" fill-opacity="0.3" filter="url(#soft{uid})"/>',
