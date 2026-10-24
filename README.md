@@ -37,10 +37,10 @@ not proof.
 
 <img src="assets/ui/section-03.svg" alt="How it fits together" width="100%" />
 
-Eight of these projects are stations on one line: the path a change takes from an AI agent to
+Nine of these projects are stations on one line: the path a change takes from an AI agent to
 production.
 
-<img src="assets/ui/pipeline.svg" alt="Pipeline from AI agent to production. Before it writes: skill3 teaches the agent current skills, llm-fw filters prompts before the model. While it writes: vibetags fences off code it must not touch, axiom shows what a change just broke, ghost-mcp gives it hands on the desktop. Before it ships: codekoll runs static analysis for silent bugs, async-test-lib forces concurrency bugs to fire, codekarta maps what was actually built." width="100%" />
+<img src="assets/ui/pipeline.svg" alt="Pipeline from AI agent to production. Before it writes: skill3 teaches the agent current skills, llm-fw filters prompts before the model, speckit-agents audits the spec before any code. While it writes: vibetags fences off code it must not touch, axiom shows what a change just broke, ghost-mcp gives it hands on the desktop. Before it ships: codekoll runs static analysis for silent bugs, async-test-lib forces concurrency bugs to fire, codekarta maps what was actually built." width="100%" />
 
 <img src="assets/ui/section-04.svg" alt="Open source" width="100%" />
 
@@ -52,6 +52,7 @@ production.
 <a href="https://github.com/PIsberg/axiom"><img src="assets/cards/axiom.svg" alt="axiom: The codebase as a live queryable graph, so an agent can see what it just broke." width="49.5%" /></a>
 <a href="https://github.com/PIsberg/skill3"><img src="assets/cards/skill3.svg" alt="skill3: Relearns a technical skill for an agent, anchored to a target model cutoff, and vets the result." width="49.5%" /></a>
 <a href="https://github.com/PIsberg/ghost-mcp"><img src="assets/cards/ghost-mcp.svg" alt="ghost-mcp: MCP server that exposes OS level UI automation to AI clients." width="49.5%" /></a>
+<a href="https://github.com/PIsberg/speckit-agents"><img src="assets/cards/speckit-agents.svg" alt="speckit-agents: Claude Code subagents for Spec Kit. Hooks keep each in its lane, and no code is written until the spec passes audit." width="49.5%" /></a>
 </p>
 
 ### Java correctness and analysis
